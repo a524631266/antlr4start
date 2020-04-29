@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ce4bcf-1ef9-413f-a608-d27ee695bacb" name="Default Changelist" comment="" />
+    <list default="true" id="51ce4bcf-1ef9-413f-a608-d27ee695bacb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CommonLexerRules.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LabeledExpr.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LibExpr.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,139 +22,65 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="186">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="202">
-                <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ShortToUnicodeString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayInit.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.tokens">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitBaseListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitLexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitLexer.tokens">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.521059">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="186">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#371#372#0" expanded="true" />
+                    <element signature="e#394#395#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprVisitor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="645">
+                  <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/LabeledExpr.g4">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,6 +106,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/ShortToUnicodeString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java" />
       </list>
     </option>
   </component>
@@ -186,11 +122,18 @@
       <dailyData date="27-04-2020">
         <observation name="false" value="52.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="false" value="19.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="27-04-2020">
         <observation name="UNDEFINED" value="14.0" />
         <observation name="false" value="38.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -198,11 +141,18 @@
         <observation name="false" value="51.0" />
         <observation name="true" value="1.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="false" value="19.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="27-04-2020">
         <observation name="0" value="13.0" />
         <observation name="UNDEFINED" value="39.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="0" value="3.0" />
+        <observation name="UNDEFINED" value="16.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -211,12 +161,22 @@
         <observation name="false" value="10.0" />
         <observation name="true" value="35.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="2.0" />
+        <observation name="true" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="27-04-2020">
         <observation name="UNDEFINED" value="7.0" />
         <observation name="false" value="22.0" />
         <observation name="true" value="23.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="11.0" />
+        <observation name="true" value="6.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -225,12 +185,22 @@
         <observation name="false" value="22.0" />
         <observation name="true" value="23.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="6.0" />
+        <observation name="true" value="11.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="27-04-2020">
         <observation name="UNDEFINED" value="7.0" />
         <observation name="false" value="22.0" />
         <observation name="true" value="23.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="6.0" />
+        <observation name="true" value="11.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -239,17 +209,30 @@
         <observation name="false" value="40.0" />
         <observation name="true" value="5.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="16.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="27-04-2020">
         <observation name="false" value="47.0" />
         <observation name="true" value="5.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="false" value="17.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="27-04-2020">
         <observation name="NORMAL" value="45.0" />
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="NORMAL" value="17.0" />
+        <observation name="UNDEFINED" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -258,6 +241,11 @@
         <observation name="expected" value="10.0" />
         <observation name="maybeExpected" value="1.0" />
         <observation name="normal" value="34.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="expected" value="3.0" />
+        <observation name="normal" value="14.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -268,11 +256,23 @@
         <observation name="normal" value="21.0" />
         <observation name="variable" value="6.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="classNameOrGlobalStatic" value="2.0" />
+        <observation name="expectedTypeVariable" value="3.0" />
+        <observation name="normal" value="8.0" />
+        <observation name="probableKeyword" value="1.0" />
+        <observation name="variable" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="27-04-2020">
         <observation name="UNDEFINED" value="7.0" />
         <observation name="unknown" value="45.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="unknown" value="17.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -281,6 +281,11 @@
         <observation name="false" value="10.0" />
         <observation name="null" value="35.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="2.0" />
+        <observation name="null" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="27-04-2020">
@@ -288,11 +293,20 @@
         <observation name="applicableByKind" value="1.0" />
         <observation name="unknown" value="44.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="applicableByKind" value="1.0" />
+        <observation name="unknown" value="16.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="27-04-2020">
         <observation name="UNDEFINED" value="19.0" />
         <observation name="normal" value="33.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="7.0" />
+        <observation name="normal" value="12.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -304,10 +318,18 @@
         <observation name="explicitSelect" value="39.0" />
         <observation name="typedSelect" value="15.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="cancelled" value="6.0" />
+        <observation name="explicitSelect" value="15.0" />
+        <observation name="typedSelect" value="4.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="27-04-2020">
         <observation name="BASIC" value="65.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="BASIC" value="20.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -316,6 +338,9 @@
       </dailyData>
       <dailyData date="27-04-2020">
         <observation name="count" value="242.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="count" value="25.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -326,11 +351,25 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.053879" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="0.108108" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.057867" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="27-04-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="103.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="37.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -345,6 +384,14 @@
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.09" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="-0.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.222222" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="27-04-2020">
@@ -355,6 +402,14 @@
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.062889" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="27-04-2020">
@@ -363,6 +418,13 @@
         <observation name="max" value="5.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.839259" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="0.486486" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="4.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.721572" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -373,6 +435,13 @@
         <observation name="min" value="-1302.0" />
         <observation name="variance" value="31689.517416" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="-1141.459459" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="-1052.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="1388.014559" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="27-04-2020">
@@ -381,6 +450,13 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-2.0" />
         <observation name="variance" value="0.111274" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="-0.108108" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.06915" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -392,6 +468,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="12763.849988" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="175.757576" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="9540.831745" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="27-04-2020">
@@ -401,6 +485,14 @@
         <observation name="max" value="8.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="4.172563" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.363636" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="6.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1.904598" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -412,6 +504,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.741555" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="1.333333" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.628139" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="27-04-2020">
@@ -422,11 +522,26 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.628786" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.727273" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.57225" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="27-04-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="103.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="37.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -440,6 +555,13 @@
         <observation name="min" value="2.0" />
         <observation name="variance" value="23.970333" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="8.216216" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="29.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="46.833543" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="27-04-2020">
@@ -449,6 +571,14 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.043558" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -460,6 +590,14 @@
         <observation name="min" value="-999.0" />
         <observation name="variance" value="62763.207152" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="27-04-2020">
@@ -470,11 +608,26 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="27-04-2020">
         <observation name="average" value="1.0" />
         <observation name="count" value="103.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="37.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -489,6 +642,14 @@
         <observation name="min" value="-5.0" />
         <observation name="variance" value="1.787701" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="average" value="-1.666667" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="1.027494" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="27-04-2020">
@@ -497,6 +658,13 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="9448697.270759" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="1351.081081" />
+        <observation name="count" value="37.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="7555403.705415" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -508,11 +676,21 @@
         <observation name="4" value="1.0" />
         <observation name="5" value="1.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="0" value="10.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="1.0" />
+        <observation name="4" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="27-04-2020">
         <observation name="total" value="32.0" />
         <observation name="withMnemonics" value="7.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="total" value="12.0" />
+        <observation name="withMnemonics" value="2.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -527,6 +705,13 @@
         <observation name="8" value="1.0" />
         <observation name="9" value="1.0" />
       </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="1" value="3.0" />
+        <observation name="2" value="6.0" />
+        <observation name="3" value="3.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="26-04-2020">
@@ -536,6 +721,10 @@
       <dailyData date="27-04-2020">
         <observation name="average" value="505.121739" />
         <observation name="count" value="115.0" />
+      </dailyData>
+      <dailyData date="28-04-2020">
+        <observation name="average" value="395.8" />
+        <observation name="count" value="25.0" />
       </dailyData>
     </factor>
   </component>
@@ -580,6 +769,15 @@
             </path>
             <path>
               <item name="antlr4start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangll" type="462c0819:PsiDirectoryNode" />
+              <item name="no4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4start" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -594,7 +792,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -607,6 +805,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/firstprogram" />
     </key>
   </component>
@@ -653,18 +853,18 @@
       <option name="presentableId" value="Default" />
       <updated>1587908916853</updated>
       <workItem from="1587908920747" duration="8210000" />
-      <workItem from="1587997882216" duration="1648000" />
+      <workItem from="1587997882216" duration="6867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9858000" />
+    <option name="totallyTimeSpent" value="15077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32218596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.066884175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -673,15 +873,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" weight="0.32952693" />
       <window_info anchor="bottom" id="Tool Output" weight="0.3290938" />
-      <window_info anchor="bottom" id="ANTLR Preview" weight="0.44674087" />
+      <window_info anchor="bottom" id="ANTLR Preview" weight="0.5484897" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38950714" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38950714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21303657" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37678856" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -817,7 +1017,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayInit.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -875,7 +1075,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -892,7 +1092,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="32" />
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -902,12 +1102,122 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ShortToUnicodeString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#161#162#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/code/tour/t.expr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/Expr.interp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/ExprBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/ExprVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Expr.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/code/tour/Expr.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/code/tour/LibExpr.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CommonLexerRules.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/com/zhangll/no4/LibExprBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LibExprBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LibExprVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/code/tour/LabeledExpr.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LibExpr.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LabeledExpr.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
