@@ -2,13 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ce4bcf-1ef9-413f-a608-d27ee695bacb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonLexerRules.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LabeledExpr.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LibExpr.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/PdfResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/WordResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/Extractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/ExtractorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileApplicationV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/PdfResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/WordResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/Extractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/ExtractorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileApplicationV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/PdfResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/WordResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Compress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/CompressImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Extractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/ExtractorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileApplicationV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/PdfResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/WordResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/CompressImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/ExtractorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileApplicationV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/PdfResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/StoreImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/WordResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExpr.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExpr.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,69 +67,125 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.521059">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="186">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" selection-start-line="4" selection-end-line="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#394#395#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprVisitor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/LabeledExpr.g4">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/ExtractorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileApplicationV4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/CompressImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/StoreImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/WordResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/PdfResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/install/Hello.g4" />
-        <option value="$PROJECT_DIR$/install/HelloListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.g4" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitListener.java" />
@@ -107,13 +206,53 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/ShortToUnicodeString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/VistorMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprLexer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/FileResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/WordResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/PdfResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/FileApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/FileApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/Extractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/ExtractorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/PdfResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/WordResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileApplicationV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/PdfResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/WordResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileApplicationV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileApplicationV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileApplicationV3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Extractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Compress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/CompressImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/PdfResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/WordResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileApplicationV4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/PdfResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/WordResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/CompressImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/ExtractorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/StoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileApplicationV4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="136" />
-    <option name="y" value="81" />
+    <option name="x" value="110" />
+    <option name="y" value="79" />
     <option name="width" value="1144" />
     <option name="height" value="635" />
   </component>
@@ -125,6 +264,9 @@
       <dailyData date="28-04-2020">
         <observation name="false" value="19.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="false" value="145.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="27-04-2020">
@@ -135,6 +277,10 @@
         <observation name="UNDEFINED" value="4.0" />
         <observation name="false" value="15.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="false" value="111.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="27-04-2020">
@@ -143,6 +289,9 @@
       </dailyData>
       <dailyData date="28-04-2020">
         <observation name="false" value="19.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="false" value="145.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -153,6 +302,10 @@
       <dailyData date="28-04-2020">
         <observation name="0" value="3.0" />
         <observation name="UNDEFINED" value="16.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="0" value="36.0" />
+        <observation name="UNDEFINED" value="109.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -166,6 +319,11 @@
         <observation name="false" value="2.0" />
         <observation name="true" value="15.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="40.0" />
+        <observation name="true" value="80.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="27-04-2020">
@@ -177,6 +335,11 @@
         <observation name="UNDEFINED" value="2.0" />
         <observation name="false" value="11.0" />
         <observation name="true" value="6.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="51.0" />
+        <observation name="true" value="69.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -190,6 +353,11 @@
         <observation name="false" value="6.0" />
         <observation name="true" value="11.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="50.0" />
+        <observation name="true" value="70.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="27-04-2020">
@@ -201,6 +369,11 @@
         <observation name="UNDEFINED" value="2.0" />
         <observation name="false" value="6.0" />
         <observation name="true" value="11.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="50.0" />
+        <observation name="true" value="70.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -214,6 +387,11 @@
         <observation name="false" value="16.0" />
         <observation name="true" value="1.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="110.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="27-04-2020">
@@ -224,6 +402,10 @@
         <observation name="false" value="17.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="false" value="130.0" />
+        <observation name="true" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="27-04-2020">
@@ -233,6 +415,10 @@
       <dailyData date="28-04-2020">
         <observation name="NORMAL" value="17.0" />
         <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="NORMAL" value="120.0" />
+        <observation name="UNDEFINED" value="25.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -246,6 +432,13 @@
         <observation name="UNDEFINED" value="2.0" />
         <observation name="expected" value="3.0" />
         <observation name="normal" value="14.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="expected" value="20.0" />
+        <observation name="maybeExpected" value="8.0" />
+        <observation name="normal" value="87.0" />
+        <observation name="ofDefaultType" value="5.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -264,6 +457,14 @@
         <observation name="probableKeyword" value="1.0" />
         <observation name="variable" value="3.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="classNameOrGlobalStatic" value="31.0" />
+        <observation name="expectedTypeVariable" value="5.0" />
+        <observation name="normal" value="53.0" />
+        <observation name="probableKeyword" value="3.0" />
+        <observation name="variable" value="28.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="27-04-2020">
@@ -273,6 +474,10 @@
       <dailyData date="28-04-2020">
         <observation name="UNDEFINED" value="2.0" />
         <observation name="unknown" value="17.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="unknown" value="120.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -286,6 +491,12 @@
         <observation name="false" value="2.0" />
         <observation name="null" value="15.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="30.0" />
+        <observation name="null" value="89.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="27-04-2020">
@@ -298,6 +509,11 @@
         <observation name="applicableByKind" value="1.0" />
         <observation name="unknown" value="16.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="applicableByKind" value="3.0" />
+        <observation name="unknown" value="117.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="27-04-2020">
@@ -307,6 +523,10 @@
       <dailyData date="28-04-2020">
         <observation name="UNDEFINED" value="7.0" />
         <observation name="normal" value="12.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="62.0" />
+        <observation name="normal" value="83.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -323,6 +543,11 @@
         <observation name="explicitSelect" value="15.0" />
         <observation name="typedSelect" value="4.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="cancelled" value="709.0" />
+        <observation name="explicitSelect" value="111.0" />
+        <observation name="typedSelect" value="37.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="27-04-2020">
@@ -330,6 +555,9 @@
       </dailyData>
       <dailyData date="28-04-2020">
         <observation name="BASIC" value="20.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="BASIC" value="183.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -341,6 +569,9 @@
       </dailyData>
       <dailyData date="28-04-2020">
         <observation name="count" value="25.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="count" value="857.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -358,6 +589,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.057867" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="0.110727" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.071947" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="27-04-2020">
@@ -370,6 +608,13 @@
       <dailyData date="28-04-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="37.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="289.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -392,6 +637,14 @@
         <observation name="min" value="-2.0" />
         <observation name="variance" value="0.222222" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="138.0" />
+        <observation name="average" value="-3.538462" />
+        <observation name="count" value="13.0" />
+        <observation name="max" value="-1.0" />
+        <observation name="min" value="-8.0" />
+        <observation name="variance" value="2.732478" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="27-04-2020">
@@ -410,6 +663,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="-0.016736" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.010569" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="27-04-2020">
@@ -425,6 +686,13 @@
         <observation name="max" value="4.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.721572" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="0.083045" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="7.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.226026" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -442,6 +710,13 @@
         <observation name="min" value="-1202.0" />
         <observation name="variance" value="1388.014559" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="-1036.941176" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1154.0" />
+        <observation name="variance" value="68226.228955" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="27-04-2020">
@@ -457,6 +732,13 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.06915" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="0.013841" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.009109" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -476,6 +758,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="9540.831745" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="143.514644" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="11613.961138" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="27-04-2020">
@@ -493,6 +783,14 @@
         <observation name="max" value="6.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="1.904598" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="0.368201" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="3.012589" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -512,6 +810,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.628139" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="1.171548" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.73902" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="27-04-2020">
@@ -530,6 +836,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.57225" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="0.476987" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.513185" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="27-04-2020">
@@ -542,6 +856,13 @@
       <dailyData date="28-04-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="37.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="289.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -562,6 +883,13 @@
         <observation name="min" value="2.0" />
         <observation name="variance" value="46.833543" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="6.941176" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="15.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="8.605883" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="27-04-2020">
@@ -579,6 +907,14 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="-0.016736" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.010569" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -598,6 +934,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="-16.711297" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="10537.175444" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="27-04-2020">
@@ -616,6 +960,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="239.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="27-04-2020">
@@ -628,6 +980,13 @@
       <dailyData date="28-04-2020">
         <observation name="average" value="1.0" />
         <observation name="count" value="37.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="289.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -650,6 +1009,14 @@
         <observation name="min" value="-3.0" />
         <observation name="variance" value="1.027494" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="UNDEFINED" value="103.0" />
+        <observation name="average" value="-3.048193" />
+        <observation name="count" value="83.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.068407" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="27-04-2020">
@@ -665,6 +1032,13 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="7555403.705415" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="2697.024221" />
+        <observation name="count" value="289.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="16015765.050988" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -682,6 +1056,12 @@
         <observation name="2" value="1.0" />
         <observation name="4" value="1.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="0" value="106.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="1.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="27-04-2020">
@@ -691,6 +1071,10 @@
       <dailyData date="28-04-2020">
         <observation name="total" value="12.0" />
         <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="total" value="78.0" />
+        <observation name="withMnemonics" value="3.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -712,6 +1096,16 @@
         <observation name="5" value="1.0" />
         <observation name="6" value="2.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="0" value="15.0" />
+        <observation name="1" value="18.0" />
+        <observation name="2" value="37.0" />
+        <observation name="3" value="28.0" />
+        <observation name="4" value="9.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="2.0" />
+        <observation name="7" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="26-04-2020">
@@ -726,14 +1120,19 @@
         <observation name="average" value="395.8" />
         <observation name="count" value="25.0" />
       </dailyData>
+      <dailyData date="20-06-2020">
+        <observation name="average" value="222.721805" />
+        <observation name="count" value="133.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -774,7 +1173,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zhangll" type="462c0819:PsiDirectoryNode" />
-              <item name="no4" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antlr4start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangll" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="version5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="antlr4start" type="b2602c69:ProjectViewProjectNode" />
@@ -784,6 +1193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -792,7 +1202,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -801,13 +1211,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhangll.visitor.version5" />
+      <recent name="com.zhangll.visitor.version4" />
+      <recent name="com.zhangll.visitor.version2" />
+      <recent name="com.zhangll.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/zhangll/firstprogram" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhangll.visitor.version2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -822,13 +1243,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangll.App" />
+  <component name="RunManager" selected="Application.FileApplicationV4 (1)">
+    <configuration name="FileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangll.visitor.version1.FileApplication" />
       <module name="antlr4start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangll.*" />
+          <option name="PATTERN" value="com.zhangll.visitor.version1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplicationV2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangll.visitor.version3.FileApplicationV2" />
+      <module name="antlr4start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangll.visitor.version3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplicationV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangll.visitor.version2.FileApplicationV2" />
+      <module name="antlr4start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangll.visitor.version2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplicationV4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangll.visitor.version5.FileApplicationV4" />
+      <module name="antlr4start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangll.visitor.version5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplicationV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangll.visitor.version4.FileApplicationV4" />
+      <module name="antlr4start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangll.visitor.version4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -838,7 +1311,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.FileApplicationV4 (1)" />
+        <item itemvalue="Application.FileApplicationV4" />
+        <item itemvalue="Application.FileApplicationV2 (1)" />
+        <item itemvalue="Application.FileApplicationV2" />
+        <item itemvalue="Application.FileApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -853,18 +1330,21 @@
       <option name="presentableId" value="Default" />
       <updated>1587908916853</updated>
       <workItem from="1587908920747" duration="8210000" />
-      <workItem from="1587997882216" duration="6867000" />
+      <workItem from="1587997882216" duration="6913000" />
+      <workItem from="1590584149097" duration="6364000" />
+      <workItem from="1591454367210" duration="2568000" />
+      <workItem from="1592633627207" duration="4130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15077000" />
+    <option name="totallyTimeSpent" value="28185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.066884175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3254486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -872,21 +1352,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" weight="0.32952693" />
-      <window_info anchor="bottom" id="Tool Output" weight="0.3290938" />
-      <window_info anchor="bottom" id="ANTLR Preview" weight="0.5484897" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38950714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37678856" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49918434" weight="0.34976152" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008157" side_tool="true" weight="0.31796503" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Tool Output" order="13" weight="0.3290938" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" weight="0.5484897" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -900,6 +1380,43 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28955954" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.32952693" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38950714" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49918434" visible="true" weight="0.43720192" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008157" side_tool="true" weight="0.31796503" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Tool Output" order="13" weight="0.3290938" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="14" weight="0.5484897" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -937,263 +1454,20 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/PdfResource.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/abego/treelayout/internal/util/Contract.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/abego/treelayout/internal/util/java/lang/string/StringUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/antlr/v4/Tool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10031">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/HelloListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install/Hello.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitLexer.tokens">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/firstprogram/com/zhangll/firstprogram/ArrayInitBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/firstprogram/ArrayInitBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/firstprogram/ArrayInitBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayInit.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.0-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInitParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="102" column="36" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ArrayInit.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/ShortToUnicodeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/code/tour/t.expr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/Expr.interp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/ExprBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/ExprVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Expr.g4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/code/tour/Expr.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/code/tour/LibExpr.g4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommonLexerRules.g4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/com/zhangll/no4/LibExprBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LibExprBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LibExprVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/code/tour/LabeledExpr.g4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LibExpr.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1204,21 +1478,488 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LabeledExpr.g4">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprLexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#478#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="e#2332#2333#0" expanded="true" />
+            <element signature="e#2356#2357#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/EvalVistor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#499#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#3002#3003#0" expanded="true" />
+            <element signature="e#4511#4512#0" expanded="true" />
+            <element signature="e#4548#4549#0" expanded="true" />
+            <element signature="e#4678#4679#0" expanded="true" />
+            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5627#5628#0" expanded="true" />
+            <element signature="e#6524#6525#0" expanded="true" />
+            <element signature="e#6575#6576#0" expanded="true" />
+            <element signature="e#8498#8499#0" expanded="true" />
+            <element signature="e#8535#8536#0" expanded="true" />
+            <element signature="e#8665#8666#0" expanded="true" />
+            <element signature="e#8693#8694#0" expanded="true" />
+            <element signature="e#8783#8784#0" expanded="true" />
+            <element signature="e#8834#8835#0" expanded="true" />
+            <element signature="e#9588#9589#0" expanded="true" />
+            <element signature="e#9638#9639#0" expanded="true" />
+            <element signature="e#9673#9674#0" expanded="true" />
+            <element signature="e#9724#9725#0" expanded="true" />
+            <element signature="e#10628#10629#0" expanded="true" />
+            <element signature="e#10678#10679#0" expanded="true" />
+            <element signature="e#10713#10714#0" expanded="true" />
+            <element signature="e#10764#10765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/no4/LabeledExprListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/FileApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/FileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/PdfResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/WordResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="14" selection-end-line="10" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/ExtractorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/PdfResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/WordResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/PdfResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/WordResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/ExtractorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version3/FileApplicationV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version2/FileApplicationV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/Compress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/ExtractorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/PdfResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/WordResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/CompressImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/FileApplicationV4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Compress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/WordResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/PdfResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/StoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/CompressImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/ExtractorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/FileApplicationV4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangll/visitor/version5/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
