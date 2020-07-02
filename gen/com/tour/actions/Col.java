@@ -1,4 +1,6 @@
-package com.tour.translator; /***
+package com.tour.actions;
+
+/***
  * Excerpted from "The Definitive ANTLR 4 Reference",
  * published by The Pragmatic Bookshelf.
  * Copyrights apply to this code. It may not be used to create training material, 
@@ -10,28 +12,33 @@ package com.tour.translator; /***
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-import org.antlr.v4.runtime.tree.ParseTreeWalker;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class ExtractInterfaceTool {
+public class Col {
     public static void main(String[] args) throws Exception {
+        // 显示第几行
+        int i = 1;
         String inputFile = null;
-        if (args.length > 0) inputFile = args[0];
+        if ( args.length>0 ) {
+            inputFile = args[0];
+        }
         InputStream is = System.in;
-        if (inputFile != null) {
+        if ( inputFile!=null ) {
             is = new FileInputStream(inputFile);
         }
         ANTLRInputStream input = new ANTLRInputStream(is);
-
-        JavaLexer lexer = new JavaLexer(input);
+        RowsLexer lexer = new RowsLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
-        JavaParser parser = new JavaParser(tokens);
-        ParseTree tree = parser.compilationUnit(); // parse
-
-        ParseTreeWalker walker = new ParseTreeWalker(); // create standard walker
-        ExtractInterfaceListener extractor = new ExtractInterfaceListener(parser);
-        walker.walk(extractor, tree); // initiate walk of tree with listener
+        int col = Integer.valueOf(i);
+        // pass column number!
+        RowsParser parser = new RowsParser(tokens, col);
+        // don't waste time bulding a tree
+        // 只显示相关的数据信息，不再解析构造树
+        parser.setBuildParseTree(false);
+        // parse
+        ParseTree tree = parser.file();
+        System.out.println(tree.toStringTree(parser));
     }
 }
