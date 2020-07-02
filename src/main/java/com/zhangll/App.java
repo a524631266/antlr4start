@@ -14,6 +14,7 @@ import java.io.IOException;
 public class App 
 {
     public static void main( String[] args ) throws IOException {
+        System.out.println("write:");
         // 1. 创建一个CHarStream,从标准输入读取数据
         ANTLRInputStream input = new ANTLRInputStream(System.in);
 
@@ -31,11 +32,11 @@ public class App
 
         // 5.注入监听其
         ParseTreeWalker walker = new ParseTreeWalker();
-        walker.walk(new ShortToUnicodeString(), init);
-        System.out.println();
+        walker.walk(new ShortToUnicodeStringListener(), init);
+//        System.out.println("eof");
         // 5. 直接答应结果
-//        String string = init.toStringTree(parser);
-//        System.out.println(string);
+        String string = init.toStringTree(parser);
+        System.out.println(string);
 
     }
 }
