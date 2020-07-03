@@ -33,5 +33,12 @@ public class ExtractInterfaceTool {
         ParseTreeWalker walker = new ParseTreeWalker(); // create standard walker
         ExtractInterfaceListener extractor = new ExtractInterfaceListener(parser);
         walker.walk(extractor, tree); // initiate walk of tree with listener
+
+
+        // 修改token流
+        InsertSerialIDListener serialIDListener = new InsertSerialIDListener(tokens);
+        walker.walk(serialIDListener, tree);
+        System.out.println(serialIDListener.rewriter.getText());
+
     }
 }
