@@ -1,0 +1,12 @@
+@startuml
+(*)  --> "B b = new B();\na.fld = b;"
+'If "" then
+--> [强制转换] "B b' = (B) a.fld"
+'Endif
+
+(*)  --> "C c = new C();\na.fld = c;"
+'If "强制转换" then
+--> [强制转换] "B b' = (B) a.fld"
+'Endif
+--> [是否安全](*)
+@enduml
