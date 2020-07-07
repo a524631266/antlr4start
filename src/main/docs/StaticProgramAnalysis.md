@@ -238,4 +238,114 @@ OnePass(){
 6. 关键点：在遍的过程中，所有向量位只能单调递增，且由于位向量的长度固定，在单调递增的过程
 是有限的，如果都不动，那么直接停止，一旦有变化，那么就会不断递增，直到最大点11..(n-4)..11
 
-#### 
+#### 案例2: Live Variables Analysis
+
+##### 定义存活变量
+live表示有一个变量，在程序点p到q的路径中，没有被重新赋值或者定义，即被用到（reuse）的话，表示这个节点是
+存活的，反之dead。这是对reaching definition的扩展（redefined）
+这里隐藏的一个暗示是重新定义将被定义为dead，可以使用寄存器移除的方式来理解，一旦寄存器一般移除的是dead
+变量，这样后续不需要再重新载入。这个至少在极致编程里面是非常受欢迎的。
+（这里引入一个话题，编译原理的编程是最为精细的一类编程，这种编程可以不用去深究，但是可以作为训练自己思维
+能力的一部分，来参与自己的实践中）
+
+##### 数据流走向
+1. backward
+    程序点从后向前的数据流向
+2. forward
+    程序点从前向后的数据流向
+
+根据live的定义，我们用backward方式更直观地表示。实际上没有哪个最好
+
+##### 确定是may 还是 must
+根据定义，**只要有一条path中有live**，那么该变量就是live的，不能放过任何一条path，所以是may的
+
+##### 确定CF
+
+> OUT[B] = U<sub>P a_successor_of_B</sub> IN[P]
+
+切记，path定义的方向是forward的，但是数据流可以反向
+
+##### 确定TF
+因此 OUT[B]已知，那么定义一个transfer function(f)
+INT[B] = f(OUT[B])
+HOW TO Design?
+
+> INT[B] = use<sub>B</sub> ∪ (OUT[B])
+
+这个只考虑使用，如果在某个程序点加个定义呢？
+那么此时所有的OUT[B]都应该被置为0，这样可以在IN[B]中删除掉这些被重新定义的节点。
+
+> INT[B] = use<sub>B</sub> ∪ (OUT[B] - redefine<sub>B</sub>)
+// INT[B]中所有在本B中定义的元素都应该被置为0，寄存器可以删除为0
+
+切记，此时我们用但是backward流方式方式处理
+
+##### 算法设计
+backward算法，即针对反向数据流处理
+```java 
+IN[EXIT]= Φ
+for(each BaseBlock B\EXIT){
+    IN[B] = Φ
+}
+OnePass()
+while(has any state of OUT[B] has Changed){
+    OnePass()
+}
+// 一遍 
+OnePass(){
+    for(each  BaseBlock B\EXIT){
+        // CF
+        OUT[B] =  U<sub>P a_successor_of_B</sub> IN[P];
+        // TR
+        IN[B] = use<sub>B</sub>∪(OUT[B] - redefine<sub>B</sub>);
+    }   
+}
+```
+
+#### 案例3：Available Expressions Analysis
+在计算领域，一个表达式这样的概念将作为一个数据结构来表示！！！！！！
+如何定义一个表达式是否是可用的？
+> expression e: x op y;
+1. 所有从开始节点到当前节点中paths，都要经过e的评估或计算。没有一条拉掉。
+2. 不能对 其中的x 和 y 有重新定义，也不可以重新赋值
+```text
+int x = y * z;
+        ||
+        \/ available
+return y * z;
+```
+案例，可以实际上减少不必要的计算。
+1. 比如可以使用最近计算的值来替换掉可用路径下相同的表达式
+2. 如果这样的表达式作用于多个模块，范围比较大，那么就叫做Global Common Subexpression，需要消除（eliminatin）
+
+转换规则
+> OUT[B] = gen<sub>B</sub>∪(IN[B] - kill<sub>B</sub>)
+[AvailableExpressionAnalysis](E:\github\antlr4start\src\main\docs\AvailableExpressionAnalysis.puml)
+
+##### 总结expression的分析
+此分析结果只是程序优化流程的一部分存在，在这个分析过程中，如果一步操作误报了，那么会
+对后期是有一个非常严重的影响的。
+
+```text
+OUT[ENTRY]= Φ
+for(each BaseBlock B\ENTRY){
+    OUT[B] = U // 表示的是一个全为1的位向量
+}
+OnePass()
+while(has any state of OUT[B] has Changed){
+    OnePass()
+}
+// 一遍 
+OnePass(){
+    for(each  BaseBlock B\ENTRY){
+        // CF
+        IN[B] =  ∩<sub>P a_predecessor_of_B</sub> OUT[P];
+        // TR
+        OUT[B] = gen<sub>B</sub>∪(IN[B] - kill<sub>B</sub>);
+    }   
+}
+
+```
+
+直观的理解由于∩的存在，初始化不能全为0
+

@@ -1,0 +1,64 @@
+'@startuml
+'
+'skinparam rectangle<<behavior>> {
+'	roundCorner 25
+'}
+'sprite $bProcess jar:archimate/object
+'
+'rectangle " a = e^16 * x"  as HC <<$bProcess>><<behavior>>  #Business
+'rectangle " x = ... \n b =  e^16 * x"  as CI <<$bProcess>><<behavior>> #Business
+'rectangle "c =  e^16 * x" as NAS <<$bProcess>><<behavior>> #Business
+'
+'HC "{e^16 * x}"-down->> CI
+'HC "{e^16 * x}"-down->> NAS
+'CI "{e^16 * x}" -down->>  NAS
+'
+'legend left
+'==
+'<$bProcess> : base block，用于处理三地址码的块，每个块于块之间是以流入与流出的单条路线作为块的
+'==
+'备注:
+'在这个数据流中的最后一个是available的，虽然在块
+'endlegend
+'
+'
+'
+'@enduml
+@startuml
+state AvailableExprexssion {
+[*] --> State1
+State1 : a = e^16 * x
+State2 :  x = ...
+State2 :  b =  e^16 * x
+State3 :  c =  e^16 * x
+State1  -down->  State2 : {e^16 * x}
+State1 -down->  State3 : {e^16 * x}
+State2 -down-> State3 : {e^16 * x}
+State3 --> [*]
+}
+
+state AvailableExprexssion2 {
+[*] --> State_1
+State_1 : a = e^16 * (x= 3)
+State_2 :  x = ...(x= 3)
+'State_2 :  b =  e^16 * x
+State_3 :  c =  e^16 * x
+State_1  -down->  State_2 : {e^16 * x}
+State_1 -down->  State_3 : {e^16 * x}
+State_2 -down-> State_3 : {}
+State_3 --> [*]
+}
+legend left
+==
+<$bProcess> : base block，用于处理三地址码的块，每个块于块之间是以流入与流出的单条路线作为块的
+==
+备注:
+在这个数据流中的最后一个是available的，虽然在状态2中重更新定义了x，但是其OUT[B]仍然是不变的
+
+动态运行时是不用重新计算的。这里还会涉及一种优化算法的一种
+==
+AbaliableExpression 漏报的案例
+endlegend
+
+
+@enduml
