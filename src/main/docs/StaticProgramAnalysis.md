@@ -348,4 +348,13 @@ OnePass(){
 ```
 
 直观的理解由于∩的存在，初始化不能全为0
-
+#### 总结图
+|   |RD   |  LV | AE  |
+| ------------ | ------------ | ------------ | ------------ |
+| Domain  |set of definition  | set of variable  | set of expression  |
+| Direction  | forward  |  backward | forward  |
+| May/Must  | may  | may  | must  |
+| Boundary  | OUT[entry] = Φ |IN[exit] =  Φ  | OUT[entry] =  Φ |
+|  Initialization | OUT[B] = Φ  |IN[B] = Φ  |OUT[B] = U  |
+| Transfer Function  | gen<sub>B</sub> + （IN[B] -kill<sub>B</sub>）  |  gen<sub>B</sub> + （OUT[B] -redefine<sub>B</sub>） |gen<sub>B</sub> + （IN[B] -kill<sub>B</sub>）   |
+| Meet  | ∪  | ∪  | ∩  |
