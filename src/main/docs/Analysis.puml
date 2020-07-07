@@ -1,0 +1,21 @@
+/'https://plantuml.com/'/
+@startuml
+skinparam backgroundColor LightYellow
+
+skinparam rectangle {
+  roundcorner 1000
+  StartColor MediumBlue
+  EndColor Red
+  BackgroundColor LightBlue
+  BackgroundColor<<Right>> DeepSkyBlue
+  BorderColor Gray
+  FontName Impact
+}
+rectangle May_analysis {
+    rectangle 1 <<Right>>{
+        rectangle <<Must_analysis>>  {
+        }
+    }
+
+}
+@enduml

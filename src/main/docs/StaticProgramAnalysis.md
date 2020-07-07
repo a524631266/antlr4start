@@ -63,12 +63,12 @@ IR可以看到流程结构
 2： t1 = a [ i ]
 3:  if t1  < v goto 1 (控制流，可以看到)
 ```
-其中【number：】 为程序位（位置）信息
+其中[number:] 为程序位（位置）信息
 为什么IR是有利于静态分析的呢？
 静态分析目的是安全可靠有保证理解程序流程！切记流程才是重点。
 ### 三地址码（3AC 3-Addresss code）
 1.引入临时变量
-```commandline
+```text
 a + b + 3
 =>
 t1 = a + b
@@ -157,3 +157,85 @@ edge
 
 Entry， Exit
 方便算法设计，
+
+
+
+## Data Flow 应用
+1. 抓住，深入很难
+2. 形式化数学表示，精确无歧义。读起来很有用
+[Analysis.puml](./Analysis.puml)
+### safe analysis
+总体来说就是为了安全考虑，安全角度，可以从
+用户和后续分析角度考虑
+#### may analysis
+使用场景，用户能够看，能够容忍的角度
+#### must anlysis
+用于under approximation场景，比如编译优化。不能把错误的
+的IR分析作为后续的输入
+
+### 重要组成
+1. abstraction 用户层面的数据
+2. CFG 
+    2.1 转化函数 节点node，即表示一个节点拥有的功能,以输出OUT[B]，表示
+    2.2 CF 控制流，边的作用，用于表示in[B]，可能有聚合，单节点，分离等控制的存在
+    不同控制流代表不同的程序，∩，∪，单射等等不同运算。
+3. CFG组构成一个程序program
+
+4. 在分析的IR程序中的所有值，是关于abstraction的
+所以，用户不关心具体值，而只关注语义上的。我们用
+abstraction来代替，当然，当你的abstraction为具体的值，也是
+可以的，比如true or false
+
+
+#### 案例1：reaching definition
+这是一个may analysis ，容许部分误报，但是不准漏报。
+描述的是一个定义d： 从一个程序点p点（base block states）连接到q点的位置，
+并且在p到q的路径中定义d没有被killed或者污染（不能被重新赋值）。
+> definition d: v = x op y;
+
+应用方向:
+    检测重复定义，并报错，或者检测检测未定义，即IN[B]-kill中的位向量所使用到的
+    定义未被置为1
+
+数据抽象: 
+1. 在reaching definition中，如何定义一组代表了该任务的抽象方法组？主要依据是
+如何定义其中definition，以及definition由什么数据组成，比如是否被污染如何定义d？
+也就是说在路径的寻找过程中，如果后续有定义d被重新赋值的话，那么之前的的所有定义d
+都应该被置为0，即在一个新的base block(我们定义为程序点B)中的输入数据以kill(d)
+
+2. 同时还应该有一个坐标的概念，一个definition d，有一个定义坐标指向了该定义
+
+3. 定义转化规则，即base block的node所做的功能，每一个node
+> OUT[B] = gen<sub>B</sub>∪(IN[B] - kill<sub>B</sub>)
+其中gen<sub>B</sub>表示在blockB 或者程序点B中定义的所有状态都定义为一个新的状态，
+即都假设被新定义了，此时的新定义都是以1显示，同时要删除掉所有全局存在相同变量名
+定义坐标（状态置为0，下降为0 ，即in中的 1->0， 0->1）
+
+4. CF: 一个INT[B]的所有状态集合是所有前驱节点OUT[P]的并
+> INT[B] = U<sub>P a_predecessor_of_B</sub> OUT[P]
+
+5. 算法
+```TEXT
+OUT[ENTRY]= Φ
+for(each BaseBlock B\ENTRY){
+    OUT[B] = Φ
+}
+OnePass()
+while(has any state of OUT[B] has Changed){
+    OnePass()
+}
+// 一遍 
+OnePass(){
+    for(each  BaseBlock B\ENTRY){
+        // CF
+        IN[B] =  U<sub>P a_predecessor_of_B</sub> OUT[P];
+        // TR
+        OUT[B] = gen<sub>B</sub>∪(IN[B] - kill<sub>B</sub>);
+    }   
+}
+```
+
+6. 关键点：在遍的过程中，所有向量位只能单调递增，且由于位向量的长度固定，在单调递增的过程
+是有限的，如果都不动，那么直接停止，一旦有变化，那么就会不断递增，直到最大点11..(n-4)..11
+
+#### 
